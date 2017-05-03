@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing123</title>
+</head>
+<body>
+<p>Whats up???</p>
+<form action="signup" method='post'>{% csrf_token %}
+	<label for='username'>username</label>
+	<input type="text" name="username">
+	<label for='password'>password</label>
+	<input type="password" name="password">
+	<button type='submit' name='login'>login</button>
+	<button type='submit' name='signup'>signup</button>
+</form>
+</body>
+</html>
