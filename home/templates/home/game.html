@@ -3,11 +3,11 @@
 <html>
 <head>
 	<title></title>
-	{% load static %}
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body>
 	<h1 id='game_area'>The Game</h1>
-	<script src="{% static 'home/test.js' %}"></script>
+    {% load staticfiles %}
+	<script src="{% static 'test.js' %}"></script>
 </body>
 </html>
